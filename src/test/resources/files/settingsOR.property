@@ -1,0 +1,65 @@
+browser=chrome
+url=https://www.expedia.co.in/
+implicit.wait=30
+excelpath=C:\\Users\\ANKIT\\Desktop\\data_files\\ex_stays.xlsx
+#username=
+#password=
+sheetName=Sheet1
+sheet= Sheet2
+
+#moduleName_ObjectName
+
+#PAGE-1
+click=//button[@aria-label='Going to']
+cityName=//div[@class='uitk-field has-no-visible-label']//input
+calIn = //*[@id='d1-btn']
+calOut = d2-btn
+goBack= //*[@id=\"wizard-hotel-pwa-v2-1\"]/div[1]/div[2]/div/div/div/div[1]/div/div[2]/div/div[2]/div[1]/button[1]
+date1 = //button[contains(@aria-label,'10 Jan 2021')]
+date2 = //button[contains(@aria-label,'15 Jan 2021')]
+okDone = //button[@data-stid='apply-date-picker']
+search = //*[@type='submit']
+inv = location-field-destination-input-error
+sorry = //h2[contains(text(),'So')]
+
+traveler = //button[@data-testId='travelers-field-trigger']
+child = //input[@id='child-input-0']//following-sibling::button
+sel = child-age-input-0-0
+
+#PAGE-2
+jw = //ol[@class='results-list no-bullet']//li//h3[contains(text(),'JW') and @aria-hidden]
+dismiss=//div[@class='all-t-padding-two']//button
+hotel = //ol[@class='results-list no-bullet']//li[1]
+hotels = //div[@class='uitk-grid all-cell-fill all-cell-align-top']//h3
+
+
+#PAGE-3
+
+reserve = //button[contains(text(),'Reserve a room')]
+room = //div[@id='pricebreakdown-menu-298208794']//button[contains(text(),'P')]
+room1 =//div[@id='pricebreakdown-menu-298208794']//button[contains(text(),'R')]
+pay = //*[@id="app-layer-infosite-room-ratePlans-paymentoptions"]/div[2]/div/div/section/div/div[1]/div/div[2]/div[2]/div/div/form/button
+option =//ul//li[1]//*[text()='Option 1']
+price = //div[@id='pricebreakdown-menu-298208794']//parent::div//span[@class='is-visually-hidden' and contains(text(),'Rs')]
+
+#PAGE-4
+
+contactName = hotel-contact-name0
+mobile = //input[@type='tel'][1]
+checkbox = confirmationTextEnabled
+special = special-request-room-0
+write = //div[@class='toggle-inner']//textarea
+confirm = complete-booking
+
+priceDetails = //div[@class='price-summary-title']
+totalPrice = //div[@class='total-without-pwp']//div//span
+summary = //div[@class='hotel-rate-information']
+
+roomSummary = //div[@class='room-summary']//span
+checkIn = //div[@class='duration-check-in']//span
+checkOut = //div[@class='duration-check-out']//span
+
+nameInput = //p[contains(text(),'surname')]
+mobileInput = //p[contains(text(),'phone')]
+ 
+

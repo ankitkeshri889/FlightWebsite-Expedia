@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="139890" started-at="2020-12-29T05:17:38Z" finished-at="2020-12-29T05:19:58Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="31767" started-at="2020-12-29T05:17:38Z" finished-at="2020-12-29T05:18:10Z">
+      <class name="com.staysTestRunner.InvalidFirstPageRunner">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.staysTestRunner.InvalidFirstPageRunner@5aa9e4eb]" name="beforeTest" is-config="true" duration-ms="4857" started-at="2020-12-29T05:17:38Z" finished-at="2020-12-29T05:17:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="emptyCityInvalid()[pri:0, instance:com.staysTestRunner.InvalidFirstPageRunner@5aa9e4eb]" name="emptyCityInvalid" duration-ms="17797" started-at="2020-12-29T05:17:43Z" description="Empty City Invalid Test Case" finished-at="2020-12-29T05:18:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyCityInvalid -->
+        <test-method status="PASS" signature="inputCityInvalid()[pri:1, instance:com.staysTestRunner.InvalidFirstPageRunner@5aa9e4eb]" name="inputCityInvalid" duration-ms="7066" started-at="2020-12-29T05:18:02Z" description="Invalid City Invalid Test Case" finished-at="2020-12-29T05:18:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputCityInvalid -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.staysTestRunner.InvalidFirstPageRunner@5aa9e4eb]" name="afterTest" is-config="true" duration-ms="1" started-at="2020-12-29T05:18:10Z" finished-at="2020-12-29T05:18:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.staysTestRunner.InvalidFirstPageRunner -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="51798" started-at="2020-12-29T05:18:11Z" finished-at="2020-12-29T05:19:03Z">
+      <class name="com.staysTestRunner.StaysRunner">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.staysTestRunner.StaysRunner@bcec361]" name="beforeTest" is-config="true" duration-ms="3625" started-at="2020-12-29T05:18:11Z" finished-at="2020-12-29T05:18:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="staysFirstPage()[pri:0, instance:com.staysTestRunner.StaysRunner@bcec361]" name="staysFirstPage" duration-ms="22699" started-at="2020-12-29T05:18:14Z" finished-at="2020-12-29T05:18:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- staysFirstPage -->
+        <test-method status="PASS" signature="staysSecondPage()[pri:0, instance:com.staysTestRunner.StaysRunner@bcec361]" name="staysSecondPage" duration-ms="7013" started-at="2020-12-29T05:18:38Z" depends-on-methods="com.staysTestRunner.StaysRunner.staysFirstPage" finished-at="2020-12-29T05:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- staysSecondPage -->
+        <test-method status="PASS" signature="staysThirdPage()[pri:0, instance:com.staysTestRunner.StaysRunner@bcec361]" name="staysThirdPage" duration-ms="3114" started-at="2020-12-29T05:18:50Z" depends-on-methods="com.staysTestRunner.StaysRunner.staysFirstPage, com.staysTestRunner.StaysRunner.staysSecondPage" finished-at="2020-12-29T05:18:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- staysThirdPage -->
+        <test-method status="PASS" signature="staysFourthPage()[pri:0, instance:com.staysTestRunner.StaysRunner@bcec361]" name="staysFourthPage" duration-ms="5827" started-at="2020-12-29T05:18:56Z" depends-on-methods="com.staysTestRunner.StaysRunner.staysFirstPage, com.staysTestRunner.StaysRunner.staysSecondPage, com.staysTestRunner.StaysRunner.staysThirdPage" finished-at="2020-12-29T05:19:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- staysFourthPage -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.staysTestRunner.StaysRunner@bcec361]" name="afterTest" is-config="true" duration-ms="1" started-at="2020-12-29T05:19:03Z" finished-at="2020-12-29T05:19:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.staysTestRunner.StaysRunner -->
+    </test> <!-- Test2 -->
+    <test name="Test3" duration-ms="55487" started-at="2020-12-29T05:19:03Z" finished-at="2020-12-29T05:19:58Z">
+      <class name="com.staysTestRunner.InvalidFourthPageRunner">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.staysTestRunner.InvalidFourthPageRunner@1ce24091]" name="beforeTest" is-config="true" duration-ms="3517" started-at="2020-12-29T05:19:03Z" finished-at="2020-12-29T05:19:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="goesTillFourthPage()[pri:2, instance:com.staysTestRunner.InvalidFourthPageRunner@1ce24091]" name="goesTillFourthPage" duration-ms="34718" started-at="2020-12-29T05:19:06Z" description="All Invalid Test Cases of fourth Page" finished-at="2020-12-29T05:19:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goesTillFourthPage -->
+        <test-method status="PASS" signature="invalidMobile()[pri:0, instance:com.staysTestRunner.InvalidFourthPageRunner@1ce24091]" name="invalidMobile" duration-ms="3849" started-at="2020-12-29T05:19:45Z" depends-on-methods="com.staysTestRunner.InvalidFourthPageRunner.goesTillFourthPage" finished-at="2020-12-29T05:19:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidMobile -->
+        <test-method status="PASS" signature="emptyField()[pri:0, instance:com.staysTestRunner.InvalidFourthPageRunner@1ce24091]" name="emptyField" duration-ms="6484" started-at="2020-12-29T05:19:50Z" depends-on-methods="com.staysTestRunner.InvalidFourthPageRunner.goesTillFourthPage" finished-at="2020-12-29T05:19:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyField -->
+        <test-method status="PASS" signature="onlyfName()[pri:0, instance:com.staysTestRunner.InvalidFourthPageRunner@1ce24091]" name="onlyfName" duration-ms="1024" started-at="2020-12-29T05:19:57Z" depends-on-methods="com.staysTestRunner.InvalidFourthPageRunner.goesTillFourthPage" finished-at="2020-12-29T05:19:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onlyfName -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.staysTestRunner.InvalidFourthPageRunner@1ce24091]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-12-29T05:19:58Z" finished-at="2020-12-29T05:19:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.staysTestRunner.InvalidFourthPageRunner -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>
